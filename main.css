@@ -1,3 +1,4 @@
 body {  }
 img.cover { margin-bottom: 15px; margin-top: 15px;}
 ol.breadcrumb { margin-bottom: 10px; margin-top:20px;}
+a h2 { line-height: 20px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; position: absolute; bottom: 5px; left: 15px; right: 15px; font-size: 16px; background: rgba(0, 0, 0, 0.45); color: #fff; padding: 8px; text-align: center; width: auto;}
