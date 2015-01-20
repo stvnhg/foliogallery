@@ -192,7 +192,7 @@ if (empty($_REQUEST['album'])) // if no album requested, show all albums
 
 					<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
 						<a href="<?php echo $_SERVER['PHP_SELF']; ?>?album=<?php echo urlencode($albums[$i]); ?>">
-							<img src="<?php echo $album_thumb; ?>" alt="<?php echo $albums[$i]; ?>" alt="<?php echo substr($albums[$i],0,$num_captions_chars); ?>" class="img-responsive img-rounded cover">
+							<div class="image"><img src="<?php echo $album_thumb; ?>" alt="<?php echo $albums[$i]; ?>" alt="<?php echo substr($albums[$i],0,$num_captions_chars); ?>" class="img-responsive img-rounded cover"></div>
 							<h2><?php echo $albums[$i]; ?></h2>
 						</a>
 					</div>
@@ -280,7 +280,7 @@ else //display photos in album
 
 					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
 						<a href="<?php echo $album; ?>/<?php echo $files[$i]; ?>">
-							<img src="<?php echo $thumb; ?>" alt="<?php echo $files[$i]; ?>" class="img-responsive img-rounded cover">
+							<div class="image"><img src="<?php echo $thumb; ?>" alt="<?php echo $files[$i]; ?>" class="img-responsive img-rounded cover"></div>
 						</a>
 					</div>
 
